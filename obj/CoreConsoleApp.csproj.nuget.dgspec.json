@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\SOFTWARE\\Projects_Source\\VisionServiceConsole\\CoreConsoleApp\\CoreConsoleApp.csproj": {}
+  },
+  "projects": {
+    "C:\\SOFTWARE\\Projects_Source\\VisionServiceConsole\\CoreConsoleApp\\CoreConsoleApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\SOFTWARE\\Projects_Source\\VisionServiceConsole\\CoreConsoleApp\\CoreConsoleApp.csproj",
+        "projectName": "CoreConsoleApp",
+        "projectPath": "C:\\SOFTWARE\\Projects_Source\\VisionServiceConsole\\CoreConsoleApp\\CoreConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\ccc\\.nuget\\packages\\",
+        "outputPath": "C:\\SOFTWARE\\Projects_Source\\VisionServiceConsole\\CoreConsoleApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ccc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\SOFTWARE\\dotnet-sdk-5.0.402-win-x64\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
